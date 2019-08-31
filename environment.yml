@@ -1,0 +1,56 @@
+name: rotating-globe
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - basemap=1.2.0=py37h0acbc05_0
+  - blas=1.0=mkl
+  - bzip2=1.0.8=h01d97ff_0
+  - ca-certificates=2019.6.16=hecc5488_0
+  - certifi=2019.6.16=py37_1
+  - cycler=0.10.0=py37_0
+  - freetype=2.9.1=hb4e5f40_0
+  - geos=3.6.2=h5470d99_2
+  - imageio=2.5.0=py37_0
+  - intel-openmp=2019.4=233
+  - jpeg=9c=h1de35cc_1001
+  - kiwisolver=1.1.0=py37h0a44026_0
+  - libcxx=8.0.1=0
+  - libcxxabi=8.0.1=0
+  - libffi=3.2.1=h6de7cb9_1006
+  - libgfortran=3.0.1=h93005f0_2
+  - libpng=1.6.37=ha441bb4_0
+  - libtiff=4.0.10=hd08fb8f_1003
+  - lz4-c=1.8.3=h6de7cb9_1001
+  - matplotlib=3.1.1=py37h54f8f79_0
+  - mkl=2019.4=233
+  - mkl-service=2.0.2=py37h1de35cc_0
+  - mkl_fft=1.0.14=py37h5e564d8_0
+  - mkl_random=1.0.2=py37h27c97d8_0
+  - ncurses=6.1=h0a44026_1002
+  - numpy=1.16.4=py37hacdab7b_0
+  - numpy-base=1.16.4=py37h6575580_0
+  - olefile=0.46=py_0
+  - openssl=1.1.1=h1de35cc_0
+  - pillow=6.1.0=py37h75ffe9a_1
+  - pip=19.2.3=py37_0
+  - proj4=5.2.0=h0a44026_1
+  - pyparsing=2.4.2=py_0
+  - pyproj=1.9.6=py37h9c430a6_0
+  - pyshp=2.1.0=py_0
+  - python=3.7.3=h93065d6_1
+  - python-dateutil=2.8.0=py37_0
+  - pytz=2019.2=py_0
+  - readline=8.0=hcfe32e1_0
+  - setuptools=41.2.0=py37_0
+  - six=1.12.0=py37_0
+  - sqlite=3.29.0=hb7d70f7_1
+  - tk=8.6.9=h2573ce8_1002
+  - tornado=6.0.3=py37h1de35cc_0
+  - wheel=0.33.6=py37_0
+  - xz=5.2.4=h1de35cc_1001
+  - zlib=1.2.11=h01d97ff_1005
+  - zstd=1.4.0=ha9f0a20_0
+prefix: /Users/utpalkumar50/miniconda3/envs/rotating-globe
+
