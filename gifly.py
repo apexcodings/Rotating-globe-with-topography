@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import os,imageio
+import glob
 
 def gif_maker(gif_name,png_dir,gif_indx,num_gifs,dpi=90):
     # make png path if it doesn't exist already
@@ -21,8 +22,8 @@ def gif_maker(gif_name,png_dir,gif_indx,num_gifs,dpi=90):
 
         # define some GIF parameters
         
-        frame_length = 0.5 # seconds between frames
-        end_pause = 4 # seconds to stay on last frame
+        frame_length = 0.1 # seconds between frames
+        end_pause = 0.1 # seconds to stay on last frame
         # loop through files, join them to image array, and write to GIF called 'wind_turbine_dist.gif'
         for ii in range(0,len(sorted_files)):       
             file_path = os.path.join(png_dir, sorted_files[ii])
@@ -33,3 +34,4 @@ def gif_maker(gif_name,png_dir,gif_indx,num_gifs,dpi=90):
                 images.append(imageio.imread(file_path))
         # the duration is the time spent on each image (1/duration is frame rate)
         imageio.mimsave(gif_name, images,'GIF',duration=frame_length)
+
